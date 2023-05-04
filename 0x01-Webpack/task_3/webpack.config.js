@@ -3,16 +3,12 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   entry: {
-    header: "./modules/header/header.js",
-    body: "./modules/body/body.js",
-    footer: "./modules/footer/footer.js",
+    all: ["./modules/header/header.js", "./modules/body/body.js", "./modules/footer/footer.js"],
   },
   output: {
-    path: path.resolve(__dirname, "public"),
-    filename: "[name].bundle.js",
-  },
-  mode: "development",
-  devtool: "inline-source-map",
+		path: path.resolve(__dirname, './public'),
+		filename: '[name].bundle.js',
+	},
   module: {
     rules: [
       {
@@ -21,12 +17,13 @@ module.exports = {
       },
     ],
   },
-  devServer: {
-    port: 8564,
-  },
+  devtool: 'inline-source-map',
+	devServer: {
+		contentBase: './public',
+		port: 8564,
+	},
+	mode: 'development',
   plugins: [
-    new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ["!index.html"],
-    }),
+		new CleanWebpackPlugin(),
   ],
 };
