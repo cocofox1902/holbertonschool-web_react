@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dashboard/static/css/main.41a7fd4b.css",
-    "main.js": "/dashboard/static/js/main.48b08f9b.js",
-    "static/media/close-icon.png": "/dashboard/static/media/close-icon.7ca727dcb0b4181eda25.png",
-    "static/media/logo.jpg": "/dashboard/static/media/logo.24bab5d633e36ca8d17e.jpg",
-    "index.html": "/dashboard/index.html",
-    "main.41a7fd4b.css.map": "/dashboard/static/css/main.41a7fd4b.css.map",
-    "main.48b08f9b.js.map": "/dashboard/static/js/main.48b08f9b.js.map"
+    "main.css": "/holberton-smiling-school-react/task_4/dashboard/static/css/main.41a7fd4b.css",
+    "main.js": "/holberton-smiling-school-react/task_4/dashboard/static/js/main.e6ae03c0.js",
+    "static/media/close-icon.png": "/holberton-smiling-school-react/task_4/dashboard/static/media/close-icon.7ca727dcb0b4181eda25.png",
+    "static/media/logo.jpg": "/holberton-smiling-school-react/task_4/dashboard/static/media/logo.24bab5d633e36ca8d17e.jpg",
+    "index.html": "/holberton-smiling-school-react/task_4/dashboard/index.html",
+    "main.41a7fd4b.css.map": "/holberton-smiling-school-react/task_4/dashboard/static/css/main.41a7fd4b.css.map",
+    "main.e6ae03c0.js.map": "/holberton-smiling-school-react/task_4/dashboard/static/js/main.e6ae03c0.js.map"
   },
   "entrypoints": [
     "static/css/main.41a7fd4b.css",
-    "static/js/main.48b08f9b.js"
+    "static/js/main.e6ae03c0.js"
   ]
 }
