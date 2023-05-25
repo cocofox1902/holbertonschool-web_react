@@ -81,6 +81,30 @@ class Notifications extends Component {
   }
 }
 
+const opacityFrame = {
+  '0%': {
+    opacity: 0.5,
+  },
+  '50%': {
+    opacity: 0.75,
+  },
+  '100%': {
+    opacity: 1,
+  },
+};
+
+const bounceFrame = {
+  '0%': {
+    transform: 'translateY(0)',
+  },
+  '50%': {
+    transform: 'translateY(-10px)',
+  },
+  '100%': {
+    transform: 'translateY(0)',
+  },
+};
+
 const styles = StyleSheet.create({
   notifications: {
     border: `2px dotted var(--holberton-red)`,
@@ -105,6 +129,11 @@ const styles = StyleSheet.create({
   menuItem: {
     textAlign: 'right',
     fontWeight: 'bold',
+    ':hover': {
+      animationName: [opacityFrame, bounceFrame],
+      animationDuration: '1s, .5s',
+      animationIterationCount: '3',
+    },
   },
   ul: {
     listStyle: 'none',
